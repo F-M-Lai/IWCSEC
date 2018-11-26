@@ -1,0 +1,17 @@
+IWCSEC - a library for surface free energy calculation from geometric data of particle shape
+
+Copyright (C) 2017-2018 Haibo Guo and Fuming Lai
+
+IWCSEC is free library. Most of the source code of the IWCSEC compiler (code generator)
+can be redistributed and/or modified under the terms of the GNU General Public License, version 3,
+as published by the Free Software Foundation (see the accompanying file COPYING;
+if you did not receive this file refer to <http://www.gnu.org/licenses/>).
+The rest of IWCSEC, including the generated source, can be distributed under
+the GNU Lesser General Public License, version 3, (see the file COPYING.LESSER,
+or <http://www.gnu.org/licenses/>). The applicable license is specified in each
+source file. If not indicated, the applicable license is GNU LGPL, version 3 (not GPL).
+
+IWCSEC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
