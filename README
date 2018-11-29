@@ -1,0 +1,24 @@
+IWCSEC: Inverse Wulff Construction Surface Energy Calculation
+
+=== A brief introduction to the library
+
+IWCSEC is a library for calculating surface energies that corresponds to Wulff shapes.
+Most programs that implement Wulff construction require surface energies as their
+input parameters. For most cases, surface energies are unknown: they are difficult to
+measure experimentally, and difficult to calculate computationally. Particle shapes
+are much easier to be observed and quantified (to obtain edge lengths or surface 
+areas). The IWCSEC library uses experimentally observed particle shapes as inputs and 
+calculates surface energies. The surface energies are useful parameters for materials
+models that involve surfaces.
+
+=== Installation and usage
+Most of the functions are written in Python; some speed-critical functions are
+implemented in C. The C code by compilation generates a Python-callable extension
+module. 
+
+The library contains a collection of functions that can be called in other Python 
+programs.
+
+Alternatively, we have written a demonstration program that is to be used
+interactively.
+
