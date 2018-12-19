@@ -1,0 +1,5 @@
+# ignore build directory
+build/
+
+# ignore the compiled module cgeometry.so
+./cgeometry.so

@@ -22,3 +22,12 @@ programs.
 Alternatively, we have written a demonstration program that is to be used
 interactively.
 
+=== Installation
+The library includes an extention module writen in the C programming language.
+You will first use the following command to compile geometry.c into cgeometry.so:
+
+    python setup.py build
+    
+The compiled module is in ./build/lib.???/ directory. 
+You will need to copy it to the current directry, such that it can be imported properly.
+
